@@ -7,7 +7,6 @@ $( document ).ready(function() {
                 fill: '#f6f4f2'
             }
         }).addLayer('Gyms' {
-            name: 'gyms' });
-        
+            name: 'gyms'
         });
     });
