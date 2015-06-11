@@ -1,15 +1,13 @@
 $( document ).ready(function() {
     var map = kartograph.map('#map');
     map.loadMap('svg/boston.svg', function(){
-        map.addLayer('Wards2', {
-            styles: {
-                stroke: '#aaa',
-                fill: '#f6f4f2'
-            }
-        }).addLayer('Gyms', {
-            styles: {
-                stroke: '#FF0000'
-            }
+        map.addLayer('wards2', {
+                    styles: {
+                        'stroke-width': 0.2
+                    }
+                }).addLayer('Gyms', {
+                    name: 'Gyms'
+                });
+
         });
     });
-});
