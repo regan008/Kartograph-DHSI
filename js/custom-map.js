@@ -6,6 +6,10 @@ $( document ).ready(function() {
                 stroke: '#aaa',
                 fill: '#f6f4f2'
             }
-        }).addLayer('Gyms');
+        }).addLayer('Gyms', {
+            styles: {
+                stroke: '#FF0000'
+            }
+        });
     });
 });
