@@ -6,10 +6,11 @@ $( document ).ready(function() {
                 stroke: '#aaa',
                 fill: '#f6f4f2'
             }
+        });
         map.addLayer('Gyms', {
             styles: {
                 stroke: '#aaa',
-                fill: '#3300CC'
+                fill: '#CC6633'
             }
         });
     });
