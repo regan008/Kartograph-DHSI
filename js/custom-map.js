@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     var map = kartograph.map('#map');
-    map.loadMap('../boston.svg', function(){
+    map.loadMap('../svg/boston.svg', function(){
         map.addLayer('mylayer', {
             styles: {
                 stroke: '#aaa'
